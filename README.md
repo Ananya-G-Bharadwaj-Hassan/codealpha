@@ -159,3 +159,198 @@ streamlit run app.py
 - Machine Learning Pipeline
 
 ---
+
+
+
+
+
+# 📊 Unemployment Trend Analyzer using Python
+
+## 📌 Project Overview
+
+The Unemployment Trend Analyzer is a data analysis project that explores unemployment trends across different regions and time periods using real-world unemployment data.
+
+The project performs data cleaning, preprocessing, exploratory data analysis (EDA), and visualization to identify patterns, trends, and the impact of various factors on unemployment rates.
+
+This project demonstrates how data science techniques can be applied to derive meaningful insights from socio-economic datasets.
+
+---
+
+## 🎯 Objectives
+
+- Analyze unemployment trends over time.
+- Identify states/regions with high unemployment rates.
+- Visualize unemployment patterns.
+- Understand the impact of seasonal and economic factors.
+- Generate meaningful business insights from the dataset.
+
+---
+
+## 📂 Dataset
+
+The dataset contains unemployment-related information such as:
+
+- Region / State
+- Date
+- Estimated Unemployment Rate (%)
+- Estimated Employed Population
+- Labour Participation Rate (%)
+- Area (Urban/Rural)
+
+---
+
+## 🛠️ Technologies Used
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+
+---
+
+## 📊 Project Workflow
+
+### 1. Data Collection
+
+- Load unemployment dataset
+- Inspect dataset structure
+- Understand feature types
+
+---
+
+### 2. Data Preprocessing
+
+- Handle missing values
+- Convert date columns
+- Remove duplicates
+- Format categorical variables
+
+---
+
+### 3. Exploratory Data Analysis (EDA)
+
+Performed analysis such as:
+
+- Dataset information
+- Summary statistics
+- Correlation analysis
+- Regional unemployment comparison
+- Monthly unemployment trends
+- Employment distribution
+- Labour participation analysis
+
+---
+
+### 4. Data Visualization
+
+Created visualizations including:
+
+- Line Charts
+- Bar Charts
+- Heatmaps
+- Distribution Plots
+- Correlation Matrix
+- Box Plots
+- Histograms
+
+These visualizations help understand unemployment patterns and identify regions with significant changes.
+
+---
+
+## 📈 Key Insights
+
+- Identified states with the highest unemployment rates.
+- Compared unemployment trends across different regions.
+- Analyzed changes in unemployment over time.
+- Derived meaningful insights using statistical analysis and visualization.
+
+---
+
+## 📁 Project Structure
+
+```
+Unemployment-Trend-Analyzer/
+│
+├── UnemploymentTrendAnalyser.ipynb
+├── Unemployment.csv
+├── requirements.txt
+└── README.md
+```
+
+---
+
+## ▶️ How to Run
+
+### Clone the repository
+
+```bash
+git clone https://github.com/yourusername/Unemployment-Trend-Analyzer.git
+```
+
+### Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### Open Jupyter Notebook
+
+```bash
+jupyter notebook
+```
+
+Open:
+
+```
+UnemploymentTrendAnalyser.ipynb
+```
+
+Run all cells sequentially.
+
+---
+
+## 📊 Features
+
+- Data Cleaning
+- Exploratory Data Analysis (EDA)
+- Statistical Analysis
+- Interactive Data Visualization
+- Trend Analysis
+- Correlation Analysis
+
+---
+
+## Skills Demonstrated
+
+- Python Programming
+- Data Cleaning
+- Data Analysis
+- Exploratory Data Analysis
+- Data Visualization
+- Statistical Analysis
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+
+---
+
+## Future Improvements
+
+- Build an interactive dashboard using Streamlit or Power BI.
+- Integrate live unemployment datasets.
+- Perform predictive analysis using Machine Learning.
+- Forecast future unemployment trends using time-series models.
+
+---
+
+## Applications
+
+- Government policy analysis
+- Economic research
+- Employment trend monitoring
+- Educational data science projects
+- Business intelligence
+
+---
