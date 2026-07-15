@@ -2,9 +2,14 @@ import pickle
 import streamlit as st
 import pandas as pd
 from datetime import datetime
+import pathlib
 
 # Load model
-rf=pickle.load(open("model.pkl", "rb"))
+#rf = pickle.load(open("model.pkl", "rb"))
+model_path = pathlib.Path(__file__).parent / "model.pkl"
+
+with open(model_path, "rb") as f:
+    rf = pickle.load(f)
 
 #streamlit web interface
 st.set_page_config(page_title="Car Price Predictor", page_icon="🚗")
