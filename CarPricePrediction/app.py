@@ -5,7 +5,6 @@ from datetime import datetime
 import pathlib
 
 # Load model
-#rf = pickle.load(open("model.pkl", "rb"))
 model_path = pathlib.Path(__file__).parent / "model.pkl"
 
 with open(model_path, "rb") as f:

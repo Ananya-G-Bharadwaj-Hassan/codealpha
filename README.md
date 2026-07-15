@@ -1,5 +1,11 @@
 # 🚗 Car Price Prediction using Machine Learning
 
+## 🚀 Live Demo
+
+🔗 https://codealpha-carpricepredictor.streamlit.app/
+
+---
+
 ## 📌 Project Overview
 
 The Car Price Prediction project is a machine learning application that predicts the selling price of a used car based on its specifications such as manufacturing year, present price, kilometers driven, fuel type, seller type, transmission type, and number of previous owners.
